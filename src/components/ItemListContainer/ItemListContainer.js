@@ -5,15 +5,15 @@ const ItemListContainer = () => {
   const { id: categoryId } = useParams();
 
   useEffect(() => {
-    // Aquí puedes cargar los productos según la categoría (categoryId)
-    // utilizando tus async-mocks o cualquier lógica que prefieras
+    // Aca puedo cargar los productos según la categoría (categoryId)
+    // utilizando mis async-mocks o cualquier lógica de preferencia
     console.log(`Cargar productos de la categoría: ${categoryId}`);
   }, [categoryId]);
 
   return (
     <div>
       <h1>Bienvenidos</h1>
-      {/* Aquí mostrar la lista de productos según la categoría */}
+      {/* Aca muestro la lista de productos según la categoría */}
       
     </div>
   );

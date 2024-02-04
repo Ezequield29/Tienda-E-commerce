@@ -12,7 +12,6 @@ const NavBar = () => {
           <li className="nav-item">
             <Link to="/category/cables" className="nav-link">Cables y Adaptadores</Link>
           </li>
-          {/* Agrega enlaces adicionales para otras categorías si es necesario */}
           <li className="nav-item">
             <Link to="/category/discos" className="nav-link">Discos Rígidos</Link>
           </li>

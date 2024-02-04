@@ -21,7 +21,6 @@ const ItemDetailContainer = () => {
       }
     };
 
-    // Llamar a la función para cargar detalles al montar el componente
     fetchItemDetails();
   }, [id]);
 
@@ -32,7 +31,7 @@ const ItemDetailContainer = () => {
           <h2>{item.name}</h2>
           <p>{item.description}</p>
           <p>Stock: {item.stock}</p>
-          {/* Agrega aquí cualquier otra información específica del producto */}
+          {/* Agrego cualquier otra información específica del producto */}
         </div>
       ) : (
         <p>Cargando detalles del producto...</p>
