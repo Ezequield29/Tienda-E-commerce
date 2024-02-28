@@ -1,0 +1,36 @@
+
+.NavBar{
+    padding: 0%;
+    margin: 0%;
+    display: flex; /* Para convertir el contenedor en un flex container */
+    justify-content: space-around; /* Para distribuir los elementos de forma equitativa */
+    align-items: center;
+    background: rgb(0,4,187);
+    background: linear-gradient(90deg, rgba(0,4,187,1) 0%, rgba(9,9,121,1) 17%, rgba(197,58,148,1) 100%);
+    border-radius: 10px;
+}
+
+.NavBar h3 {
+    font-size: 40px;
+    color: white;
+    background: none;
+    margin-right: auto; /* Para empujar el título hacia la izquierda */
+}
+
+.NavBar div {
+    margin-right: 50px;
+    display: flex; 
+    justify-content:space-around;
+    color: white;
+    background: none;
+    align-items: center;/* Para que los botones estén en línea */
+    gap: 10px; /* Espacio entre los botones */
+}
+
+.NavBar button {
+    background: none;
+    color: white;
+    /* Estilos de los botones */
+}
+
+  /* Estilos adicionales para el CartWidget si es necesario */

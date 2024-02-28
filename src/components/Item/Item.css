@@ -1,0 +1,24 @@
+.item-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+
+  }
+  
+  .item-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .item-description {
+    color: #666;
+  }
+  
+  .item-price {
+    color: #333;
+  }
+  .item img{
+width: 200px;
+height: 120px;
+  }
